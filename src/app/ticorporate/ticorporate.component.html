@@ -1,0 +1,244 @@
+<div class="overview"> 
+  <h2> TICorporate IX </h2>
+  <p> Ticorporate on Jamkin tietojenkäsittelyn opiskelijoiden liiketoimintasimulaatioympäristö – lopputuotteena sovelluksia ja pelejä. </p>
+  <p> Me teimme ryhmämme kanssa <a href="https://github.com/jamktiko/juomapelit-app" target="_blank">BrewDeck</a> sovelluksen, jossa minä toimin Product Ownerina, markkinointivastaavana, 
+    sekä työskentelin muiden tekniikkavastaavien kanssa koko sovelluksen kehityksen ajan. Lyhyesti, pidin sovelluksen vision kokoajan mielessäni, hoidin markkinoinnin eri 
+  sosiaalisissa medioissa, sekä toimin teknisellä puolella vähän joka paikan höylänä. Korjailin bugeja ja kirjoitin enimmäkseen frontend koodia.</p>
+  
+    <p> Alempaa sivulta löydät minun näyteportfolion sisällön jokaisesta roolista. </p>
+</div> 
+<div class="content">
+<div class="topicTitle" (click)="showPOText = !showPOText">Product Owner</div>
+<div *ngIf="showPOText"  class="my-element" [@myAnimation]>
+  <p>Toimin siis projektimme Product Ownerina, eli henkilönä joka omaa vision tuotteesta ja on vastuussa sovelluksen lopputuotoksesta. Työtehtäviini kuului esimerkiksi <a href="https://app.zenhub.com/workspaces/brewdeck-63245511f6a1555cdf260733/board" target="_blank">product backlogin</a>
+  (linkki ei toimi ilman tunnuksia, itselleni nopean pääsyn vuoksi tämä tässä) siistinä pitäminen ja sen päivittäminen.</p>
+  <p>Alkuun product ownerin hommat olivat itselleni melko sekavia. En ollut aikaisemmin toiminut näissä hommissa, eikä aikaisemmin käyty kurssi ehtinyt avata asiaa kuin teoriassa,
+     joten en oikein tiennyt mitä tuleman pitää. Ticorporaten aikana
+    Product Ownerin työtehtävät tulivat kuitenkin suhteellisen tutuiksi. 
+  </p>
+
+  <p>Ehdottomasti yksi vaikeimmista asioista Product Ownerina olosta oli alussa se, että enhän minä tiennyt mitä tarkalleen jonkin tietyn ominaisuuden tekeminen vaatii.
+    Projektin alkutaipaleella, kenelläkään meidän ryhmän jäsenistä ei ollut aikaisempaa kokemusta Angularista, websocketeista eikä juurikaan AWS backend hommistakaan. Oli vaikeaa
+    suunnitella taskeja etukäteen, kun kenelläkään ei ollut tietoa mitä sen ominaisuuden saavuttamiseen todellisuudessa vaaditaan.
+  </p>
+
+  <div class="subheader">
+    <img src="https://cdn.discordapp.com/attachments/740197805351501834/1061784849532325949/image.png" alt="Ensimmäisiä Zenhub taskeja">
+    <p>Kuva yhdestä ensimmäisistä Zenhub taskeista. Aika vaikea sanoa milloin tehtävä on oikeasti valmis.</p>
+  </div>
+
+  <p>
+    Kuitenkin projektin edetessä kokemusta kertyi ja pystyin joko itse määrittelemään jonkin taskin vaatimukset tai pystyin kysymään siltä henkilöltä, joka sitä työtehtävää
+    lähtee työstämään, että mitähän siihen kannattaisi kirjoittaa. Nostan kyllä käden ylös virheen merkiksi siitä, että en ihan hirveästi keskittynyt tähän työtehtävään projektin 
+    alussa, jolloin tämä olisi ollut hyvä saada heti hanskaan.
+  </p>
+  <div class="subheader">
+  <img src="https://cdn.discordapp.com/attachments/740197805351501834/1061785667232874616/image.png" alt="Viimeisimpiä Zenhub taskeja">
+  <p>Kuva viimeisimmistä taskeista Zenhubissa. Hieman helpompaa lukea.</p>
+  </div>
+
+  <p>Onni onnettomuudessa, vaikka Zenhubin taskit olivatkin aluksi hieman sekavia ja vain suuntaa antavia, työskentelimme kuitenkin tiiviisti yhdessä ja saimme sprintin tavoitteet
+    yleensä valmiiksi. Apua ja selvennyksiä sai aina kysyä, sekä kehotin myös muita ryhmäläisiä päivittämään taskejaan tarkemmiksi, sitä mukaan kun he ymmärsivät enemmän aiheesta.
+  </p>
+
+  <p>
+    Zenhub oli ryhmässämme kuitenkin melko vähäisellä käytöllä. Lähinnä Sprint planningissa katsoimme Sprint Backlogiin taskit, mitä haluamme lähteä
+    sillä kyseisellä sprintillä toteuttamaan ja myöhemmin Sprint Retrospectivessä siirsimme valmiit taskit "Valmiit" osioon. Olisin ehkä toivonut kaikilta (myös itseltäni) aktiivisempaa
+    Zenhubin käyttöä.
+  </p> 
+  <p>
+    Projektin viimeisillä sprinteillä rupesimme käyttämään Zenhubin taskien sijaan valkotaulua. Aikataulumme oli hyvin tiukka ja halusimme pystyä esittelemään sovelluksesta 
+    hyvin karkean, mutta toimivan version. Koin, että taskien valkotaululle kirjoittaminen auttaa pitämään ryhmäläisten ajatukset enemmän niissä ja kaikki näkevät nopealla vilkaisulla
+    taululle, että missä mennään. Huomasin ainakin itse nopeasti, että tämä toimi varsin mainiosti. Ryhmäläiset merkkailivat valmiita työtehtäviään taululle aktiivisesti ja sitä
+    mukaan pystyin itse käydä merkkaamassa tehtävät Zenhubiin. Tämä olisi pitänyt keksiä aikaisemmin.
+  </p>
+
+  <p>
+    Kuitenkin kaikessa lyhykäisyydessään pidin koko ajan oman visioni sovelluksesta mielessäni ja tarpeen tullen kuuntelin ryhmän jäsenien ideoita ja ehdotuksia, jotta saisimme
+    sovelluksesta edes jonkinnäköisen version ulos. Alussa koen, että pyysin ryhmältäni ihan liikoja, sillä kuitenkin olosuhteet huomioonottaen, meidän kaikkien taitotasot
+    tällä saralla oli hyvin vähäistä. Pystyin kuitenkin taipumaan ja raapimaan isonkin osan alkuperäisistä ominaisuuksista pois. 
+  </p>
+</div>
+</div>
+
+<div class="content">
+<div class="topicTitle" (click)="showMarketingText = !showMarketingText">Markkinointi</div>
+<div *ngIf="showMarketingText" class="my-element" [@myAnimation]>
+  <h2>Markkinointikokemukseni yleisesti</h2>
+  <p>Pidin huolta myös projektimme markkinoinnista, josta minulla ei ollut myöskään aikaisempaa kokemusta. Tämä rooli kuitenkin yllätti positiivisesti ja tykkäsin tämän ominaisuuden
+    työstämisestä. Tein projektillemme <a href="https://www.instagram.com/brewdeckgames/" target="_blank">Instagramin</a>, <a href="https://www.tiktok.com/@brewdeckgames" target="_blank">TikTokin</a>
+    sekä <a href="https://twitter.com/brewdeckgames" target="_blank">Twitterin</a>, joista Instagramiin postasin eniten sisältöä. Roolissa suurena apuna oli se, että omasin jo aikaisempaa 
+    kokemusta videon- sekä kuvaneditointi-ohjelmista.
+  </p>
+
+  <p>
+    Alussa minulla ei ollut tosiaan juurikaan kokemusta markkinoinnista, mutta projektin edetessä kävimme muiden ryhmien markkinointivastaavien kanssa aihetta avaavilla luennoilla. 
+    Kävimme läpi markkinoinnin perusteita ihan liiketoimintasuunnitelmasta lähtien. Vaikeimpia asioita liiketoimintasuunnitelman tekemisessä oli ehdottomasti tulojen ja kulujen 
+    arviointi. 
+  </p>
+
+  <p>
+    Aloin myös pikkuhiljaa tottumaan tuotteen pitchaamiseen muille. Projektin edetessä pitchaamisia tuli muutamaankin otteeseen, joten sain siitä hyvää siedätyshoitoa 
+    esityskammooni. Alkuun pitchaaminen oli hyvin ahdistavaa ja vaikeaa, kun kirjoitin yleensä pitchit auki paperille / tietokoneelle notepadiin, jolloin esitysaikaa meni 
+    siihen, että koitin muistella mitä olin mihinkin kohtaan ajatellut sanovani. Viimeisimmissä pitchauksissa päätin, etten tee itselleni sen kummempaa muistilistaa siitä, mitä 
+    aion kertoa. Kirjoitin maksimissaan pari pääpointtia muistilapulle ja pitchasin tuotteen nopeasti päästäni. Tämä taktiikka ainakin tuntui auttavan minua puheen takkuilussa,
+    eikä tapahtumia tarvinut enää juurikaan jännittää.
+  </p>
+
+  <p>
+    Tein ryhmälleni myös sisältökalenterin, jota oli tarkoitus noudattaa, mutta aikaa ei yksinkertaisesti ollut pitämään siitä kiinni, joten se jäi unholaan eikä siihen koskettu 
+    enää sen koommin. Jos olisin ollut tekemässä pelkästään markkinointihommia, olisi tämä ollut enemmällä käytöllä.
+  </p>
+  <h2>Instagram</h2>
+  <div class="subheader">
+    <img src="https://cdn.discordapp.com/attachments/740197805351501834/1061950587496824903/image.png" alt="Kuva Instagram sivusta.">
+    <p>Kuva Instagramista.</p>
+  </div>
+  <p>
+    Käytin Instagram sekä Twitter postauksien luomiseen <a href="https://www.photopea.com/" target="_blank">Photopea</a> nimistä sovellusta ja pyrin käyttämään postauksissani 
+    Royalty Free kuvia <a href="https://pixabay.com/" target="_blank">Pixabaysta</a>. Ensimmäisen postauksen jälkeen sain ensimmäisen version logostamme käyttöön, joten pyrin 
+    käyttämään sitä aina postauksissani pitääkseni postaukset toisissaan kytköksissä, jottei Instagram feedistä tulisi liian sekavan näköinen. Loppujen lopuksi huomasin,
+    että Instagram on ihan käypä sosiaalinen media markkinointia mielessäpitäen. Kuitenkin, kasvu siellä on vaikeaa ja on Instagramista on hankala löytää itselleen seuraajakuntaa.
+  </p>
+
+  <h2>TikTok</h2>
+  <p>
+    TikTok oli yksi sosiaalinen media johon halusin myös kyhätä jonkinlaisen mainosvideon. Aikaisempaa videoneditointi taustaa löytyi aikaisemman koulutuksen puolesta, 
+    joten tämä oli helppo nakki. Piti vain löytää hyvä väli missä semmoisen voisi kyhätä, kolmea roolia vetäessä kun on paljon muutakin tehtävää. Olen onneksi TikTokin suuri
+    kuluttaja, joten tiedän minkälainen video saattaa pitää ihmisen videon äärellä. Videon piti olla nopeatempoinen ja ennen kaikkea lyhyt. Päivässä sain kirjoitettua kahteen 
+    videoon käsikirjoitukset, mutta vain toisen ehdin toteuttamaan. Video sai kuitenkin ensimmäisen päivän aikana noin 100 näyttökertaa, jonka jälkeen se ei ole muuttunut. ":D" 
+    Luulempa, että sisältöä olisi pitänyt tuottaa tiheämpään tahtiin, jotta TikTokin oma algoritmi olisi tuonut videoita enemmän ihmisten "Sinulle" -sivulle, mutta aikaa oli rajallisesti 
+    enkä ehtinyt keskittymään enää toiseen videoon vaikka olisin halunnut.
+  </p>
+  <div class="subheader">
+    <img src="https://cdn.discordapp.com/attachments/740197805351501834/1061956638292054036/image.png" alt="Kuva TikTokista.">
+    <p>Kuva BrewDeckin TikTokista.</p>
+  </div>
+  <p>
+    Kuitenkin opin, että TikTok on loistava sivusto oman pienen seuraajakunnan löytämiseksi. Näkyvyys on hyvää ja edes jotkut ihmiset tulevat näkemään videon heidän TikTok etusivullaan. 
+    Siellä ei tarvitse hirveästi miettiä hashtageja löytääkseen oikeat henkilöt, TikTokin algoritmi tekee sen puolestasi.
+  </p>
+   
+
+  <h2>Twitter</h2>
+  <p>
+    Twitter oli meidän kolmas sosiaalinen media, joka oli mielestäni huonoin näistä kolmesta markkinointia mietittäessä. Twitterissä on hyvin hankalaa päästä ihmisten etusivuille, 
+    ellet postaa jotain joka pitää sisällään jonkin juuri nyt trendaavista hashtageista. Tästä syystä Twitteriin postaaminen jäi hyvin vähäiseksi. Postasin kuitenkin sinne kolme 
+    eri postausta, joista mikään ei ottanut oikein tuulta alleen, eikä seuraajia sitä kautta kertynyt.
+  </p>
+
+  <h2>Loppusanat</h2>
+  <p>
+    Kaikenkaikkiaan tykkäsin omasta markkinointiroolistani ryhmässä. Alussa olin tietämätön, enkä oikeen tiennyt aiheesta mitään, mutta projektin lopussa ymmärsin jo suurimman osan 
+    termeistä ja niiden tarkoituksista. Erittäin myönteisenä yllätyksenä huomasin myös, että nämä hommat olivat oikein mieleisä suurimmaksi osaksi. Tykkäsin erityisesti 
+    projektin aikana olleesta Sometyöpajasta, jonka JAMK meille järjesti. Siellä käsiteltiin suurimmaksi osaksi analytiikkaa ja sen keräämiseen liittyviä vaatimuksia. 
+    Sometyöpajan esityksen vetäjien työkuva kuulosti erittäin mielenkiintoiselta ja saatan harkita tätä mahdollisena urapolkuna. Tykkäsin myös erityisen paljon Googlessa 
+    Search Engine Optimizationista, sillä siinä huomasi kuinka paljon sillä on merkitystä. Sain sovelluksemme toiseksi Googlen hakutuloksissa kun haki suoraan "BrewDeck".
+  </p>
+</div>
+</div>
+
+<div class="content">
+<div class="topicTitle" (click)="showTechText = !showTechText">Tekninen tekeminen</div>
+<div *ngIf="showTechText" class="my-element" [@myAnimation]>
+  <h2>Yleistä</h2>
+  <p>
+    Mietimme projektin alussa ryhmäni kanssa, että lähdemmekö tekemään sovellustamme Reactilla vaiko Angularilla. Minulla ei ollut kummastakaan minkäänlaista aikaisempaa kokemusta,
+    joten valinta oli suhteellisen vaikea. "Kumpi on helpompi oppia lyhyessä ajassa?" ja "Kummalla tämä sovellus on helpompi tehdä?" pyörivät mielessäni. 
+    Päädyimme lopulta ryhmän kanssa Angulariin, sillä sen kanssa oli kuulemma vaikeampaa tehdä asioita ihan väärin.
+  </p>
+  <p>
+    Ensimmäisellä sprintillä keskityin lähinnä uuden Frontend ohjelmistokehyksen, Angularin opetteluun. Aikaisempaa kokemusta ei ollut, joten aloitin täysin puhtaalta pöydältä. 
+    Tein muutamia netistä löytyviä Angular tutoriaaleja, sekä koitin ahmia tietoa tutoriaaleista ilmenneistä uusista asioista netin kautta. 
+  </p>
+  <p>Toimin projektin aikana vähän joka paikan höylänä teknisellä puolella. Pyrin auttamaan muita ryhmäläisiä heidän ongelmakohdissaan, sekä korjailin paljon erilaisia bugeja 
+    mitä sovelluksesta sattui löytymään. Olin myös sovelluksemme MergeilijäPRO ja suoritin suurimman osan isoista mergeistä githubissa. 
+    Tein projektista ensimmäisen hyvin karkean version. Versio toimi vielä täysin frontendin puolella ja se oli rakennettu <a href="https://angular.io/tutorial/tour-of-heroes" target="_blank">Angularin Tour of Heroes</a>
+     tutoriaalin pohjalta.
+  </p>
+  <pre>
+    <code [innerHTML]="codeDeckts">
+    </code>
+  </pre>
+
+  <pre>
+    <code>
+      {{codeDeckHTML}}
+    </code>
+  </pre>
+
+  <p>Yllä oleva koodi on ensimmäinen "toimiva" versio sovelluksesta. Siinä pakka sekoittuu sovelluksen käynnistyessä ja pakan ensimmäisen kortin maa ja arvo näytetään 
+    pelaajalle. Koodi on hyvin alkeellista mutta koin suurta ylpeyttä saadessani sen toimimaan niinkin lyhyessä ajassa. Tuolloin toimistossa istuessani en saanut tätä oikein 
+    mitenkään toimimaan kun kaikki oli uutta, mutta kotimatkalla sain idean miten tämä toteutettaisiin ja osasin rakentaa tämän kotona.
+  </p>
+  <p>
+    Kuten myös koodista näkee, en kommentoinut juurikaan koodiani, joka (yllätys yllätys) koitui hetkelliseksi ongelmaksi myöhemmin kun koodiin piti palata. Alla näkyy 
+    myöhäisempää koodiani, joka on kommentoitua. Teksti voi olla hieman epäselvä ilman värejä, joten suosittelen vilkaisemaan tätä vaikka Visual Studio Coden kautta, jos 
+    haluat selkeämmän näkymän.
+  </p>
+
+  <pre>
+    <code>{{latestCode}}</code>
+  </pre>
+  <p>Työskentelin myös uusien APIen kanssa projektin yhteydessä. En ollut aikaisemmin sen kummmemmin koskenut mihinkään APIin, joten tämä kaikki oli uutta minulle. 
+    Päällimmäisenä mieleeni jäi se, kun sain EmailJS integrationin toimimaan sovelluksessamme. Näin toin mahdollisuuden lähettää suoraan sovelluksen kautta meille sähköpostia 
+    bugeista ja parannusehdotuksista. Se toimi tosin hetken aikaa ja projektin loppuvaiheessa huomattiin että se ei toimi enää. Päätettiin kuitenkin että ei nyt keskitytä siihen, 
+    kun sovellukseen pitäisi saada moninpeli ominaisuus toimimaan.
+  </p>
+  <div class="subheader">
+  <img src="https://cdn.discordapp.com/attachments/740197805351501834/1061978392850874448/image.png" alt="Kuva EmailJS:n kautta tulleesta sähköpostista.">
+  <p>Kuva EmailJS:n kautta tulleesta sähköpostista.</p>
+  </div>
+
+  <p>Mutta pääosin, kuten jo aikaisemminkin mainitsin, toimin teknisellä puolella hyvin pitkälti semmoisena henkilönä, joka auttaa muita tarvittaessa. 
+    Korjailin suurimman osan bugeista mitä frontendin puolella tuli vastaan sekä autoin UI/UX suunnittelijaa myös frontendin puolella. Backend devaajia koitin auttaa myös 
+    parhaani mukaan, mutta siitä en ihan hirveästi itse ymmärtänyt. Opin kuitenkin lukemaan ja ymmärtämään AWS Lambda funktioita, mutta en kyllä osaisi kirjoittaa sellaista 
+    suoraan päästäni.
+  </p>
+</div>
+</div>
+
+
+<div class="content">
+  <div class="topicTitle">Summasummaarum</div>
+  <p>
+    Projektin aikana opin paljon omien roolien työtehtävien lisäksi myös Scrum Masterin työtehtävistä. Vaikkakin nyt kirjoitushetkellä tuntuu ehkä vähän siltä että: "Noh, 
+    en minä nyt niin paljon oppinu loppujen lopuksi.." tai "Olisinhan mä voinut oppia enemmänkin.", niin mielestäni edistys ja oppiminen tällä alalla on ollut hurjaa tämän 
+    projektin kanssa. Opin Angularista vähintäänkin perusteet, mutta koen pystyväni halutessani tekemään vaikka minkälaisia sovelluksia sitä hyödyntäen. Product Owner roolista 
+    opin periaatteessa kaiken oleellisen. Tiedän mikä sen rooli on ja mitä sen työtehtäviin kuuluu. En tähänkään ihan 100% pystynyt keskittymään kun oli nämä kaksi muutakin 
+    roolia mitä piti pyörittää, mutta uskon että tarvittaessa tulevaisuuden työtehtävissä pystyn toimimaan Product Ownerina ja tekemään kaikki hänelle kuuluvat työtehtävät kunnialla 
+    maaliin.
+  </p>
+  <p>
+    Markkinointi oli ihan kivaa suurimmaksi osaksi. Harmittaa vain vietävästi, ettei siihen kerennyt keskittymään sen enempää mitä nyt kerkesin. Olisin mielelläni suunnitellut 
+    ja toteuttanut uusia postauksia ja videoita someen. Lisäksi hakukoneoptimointi jäi vähäiseksi, vaikkakin se oli ihan hauskaa ronklattavaa. Ehkä tästä voisi tulevaisuudessa keksiä
+     jotain.
+  </p>
+  <h2>Tavoitteet ja niiden toteutuminen</h2>
+  <p>
+    Tavoitteeni mielestäni toteutui. Olin TCHOPSiini kirjoittanut näin haluavani työstää sovelluksen backend puolta, mutta en ollut näemmä vielä tuolloin ihan ymmärtänyt kuinka 
+    laaja käsite ja / tai kuinka haastavaa sen haltuun ottaminen näin lyhyessä ajassa olisi. Jäin siis vähän puolivahingossa tekemään enimmäkseen sovelluksen frontendiä, kun 
+    pääsin siihen ensimmäisenä käsiksi. Joten voisi sanoa, että opin alkuperäisen suunnitelman ulkopuolelta ainakin Frontendin puolta melkoisesti. Vielä on Angularissa itselleni 
+    muutama kysymysmerkki (servicet), joiden idean ymmärrän mutten ole osannut soveltaa sitä ihan täysin sitten siihen käytännön puoleen. Mutta eiköhän tuonkin hanskaa, jos vain 
+    tätä lähtee työstämään tulevaisuudessa.
+  </p>
+
+  <h2>Tulevaisuus</h2>
+  <p>
+    En tiedä. Tulevaisuus on vielä aika avoin. Vähän heitin huumorilla kurssin lopussa, että jossei tältä kurssilta mitään muuta oppinut, niin sen ainakin opin että FullStack-devaajaa 
+    minusta ei tule. Mutta mistä sitä tietää, voihan se olla että palikat loksahtelee sillä tavalla, että tuommoinen homma minulle sopiikin. Nyt kuitenkin päällimmäisenä mielessäni 
+    on Red Hatin haltuun ottaminen vuoden 2023 kevään aikana. Se on nyt kohta vuoden päivät kutkutellut takaraivossa ja nyt kiinnostaisi oppia se ja mahdollisesti tehdä siitä 
+    oma ura. Kuitenkaan tämä opintojakso ei tätä tavoitetta tukenut, mutta sanotaanko näin, että kurssi auttoi minua miettimään tulevaisuutta ja omaa urapolkuani. Joten ainakin 
+    tulevaisuus on ehkä hieman selkeämpi, verrattuna mitä se oli kurssin alussa.
+  </p>
+  <p>
+    Kurssi ei oikein välttämättä vahvuuksiani tuonut esille, mutta se auttoi löytämään ainakin heikkouksiani. Huomasin heti, ettei backend hommat oikeen rulaa (ei sinällään mikään yllätys, ottaen huomioon että en ole käynyt siihen liittyviä kursseja),
+    mutta toivon tulevaisuudessa saavan tästäkin enemmän kokemusta. Red Hatin kursseilla uskon oppivani tästäkin lisää.
+  </p>
+  <h2>Miksi juuri nämä näytteet?</h2>
+  <p>
+    Nämä näytteet olivat mielestäni isoimmat omat näytteet mitä täällä voin helposti näyttää. Suurin osa tekemisestäni oli pienempää fixailua ja jo valmiin koodin muokkaamista. 
+    Kuitenkin halutessasi pääset <a href="https://github.com/jamktiko/juomapelit-app/commits?author=Konnad" target="_blank">tästä</a> selaamaan tekemiäni committeja GitHubista. 
+  </p>
+</div>
+  

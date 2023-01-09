@@ -1,0 +1,146 @@
+
+h2 {
+  font-size: 2em;
+  font-weight: 400;
+  margin: 0 0 0.5em;
+  text-align: center;
+  padding: 1em;
+}
+
+h3 {
+  font-size: 1.5em;
+  font-weight: 300;
+  margin: 0 0 0.5em;
+  text-align: center;
+  padding: 1em;
+}
+
+.subheader {
+  background-color: rgba(0, 0, 0, 0.404);
+  border-radius: 16px;
+  padding: 0;
+  margin: 0 auto;
+}
+
+img {
+  display:block;
+  margin:0 auto;
+  width: 100%;
+}
+
+.topicTitle {
+  font-size: 2em;
+  font-weight: bold;
+  margin: 0 0 0.5em;
+  text-align: center;
+  padding: 1em;
+}
+
+p {
+  font-size: 1.2em;
+  line-height: 1.5em;
+  margin: 0 0 1.5em;
+  text-align: center;
+}
+.content {
+  background-color: rgba(0, 0, 0, 0.158);
+  border-radius: 16px;
+}
+
+pre {
+  background-color: #2d2d2d;
+  color: #fff;
+  padding: 1em;
+  border-radius: 8px;
+  overflow-x: auto;
+  }
+  
+  code {
+  font-family: 'Roboto Mono', monospace;
+  font-size: 14px;
+  }
+  
+  .keyword {
+  color: #00b8d4;
+  }
+  
+  .function {
+  color: #e53935;
+  }
+  
+  .string {
+  color: #00c853;
+  }
+  
+  .number {
+  color: #d81b60;
+  }
+  
+  .boolean {
+  color: #d81b60;
+  }
+  
+  .null {
+  color: #6a1b9a;
+  }
+
+.my-element {
+  margin: 0 0 0.5em;
+  padding: 1em;
+}
+ /* unvisited link */
+ a:link {
+  color: grey;
+}
+
+/* visited link */
+a:visited {
+  color: grey;
+}
+
+/* mouse over link */
+a:hover {
+  color: hotpink;
+}
+
+/* selected link */
+a:active {
+  color: blue;
+} 
+
+
+/* Add this to your global stylesheet */
+.my-element.ng-enter,
+.my-element.ng-leave {
+  /* Define the animation states */
+  opacity: 0;
+}
+
+.my-element.ng-enter-active,
+.my-element.ng-leave-active {
+  /* The element has been added to/removed from the DOM and is being animated */
+  transition: 1s ease-out;
+}
+
+.my-element.ng-enter-active {
+  /* The element has been added to the DOM and is being animated */
+  opacity: 1;
+}
+
+.my-element.ng-leave-active {
+  /* The element has been removed from the DOM and is being animated */
+  opacity: 0;
+}
+
+@media only screen and (max-width: 600px) {
+  h2 {
+    font-size: 1.5em; /* reduce font size for small screens */
+  }
+  img {
+    width: 80%; /* reduce image width for small screens */
+  }
+  .subheader,
+  .content {
+    width: 90%; /* reduce element width for small screens */
+  }
+}
